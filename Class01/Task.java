@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Class01;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,9 +10,12 @@ public class Task {
         System.setProperty("webdriver.chrome.driver","Drivers/chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.amazon.com/");
 
-        String tittle = driver.getTitle();
+            driver.get("https://www.amazon.com/");
+
+
+
+       String tittle = driver.getTitle();
         System.out.println("tittle is : "+tittle);
 
         String url = driver.getCurrentUrl();

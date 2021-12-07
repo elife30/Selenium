@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Class01;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
