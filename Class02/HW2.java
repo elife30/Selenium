@@ -9,6 +9,7 @@ public class HW2 {
     public static void main(String[] args) throws InterruptedException {
 
     /*
+
     HW2
 navigate to fb.com
 click on create new account
